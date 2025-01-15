@@ -105,7 +105,7 @@ function Contact() {
           <div className="col-span-2">
             <button
               type="submit"
-              className="flex items-center justify-center mt-4 bg-main text-white py-2 px-4 rounded-md hover:bg-main/95 transition duration-200 float-end"
+              className="flex items-center justify-center mt-4 bg-main text-white py-2 px-4 rounded-md hover:bg-main/95 transition duration-200  md:float-end"
             >
               <FaPaperPlane className="mr-2" />
               Submit

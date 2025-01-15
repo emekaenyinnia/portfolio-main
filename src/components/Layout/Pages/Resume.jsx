@@ -77,7 +77,7 @@ function Resume() {
       className=""
     >
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 md:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-0 md:gap-0">
           {/* Education Section */}
           <div
           >
@@ -115,7 +115,7 @@ function Resume() {
                 style={{ width: `${skill.percentage}%` }}
               >
                 <span>{skill.name}</span>
-                <span>{skill.level}</span>
+                <span className='hidden md:block'>{skill.level}</span>
               </div>
             </div>
 
@@ -131,7 +131,7 @@ const Timeline = ({index,item, len, }) => {
     return (
       <li
       key={index}
-      className={`relative pl-6 ${index !== len.length - 1 ? 'pb-14' : 'pb-14'}`}
+      className={`relative pl-6 ${index !== len.length - 1 ? 'pb-14' : 'pb-8 md:pb-14'}`}
     >
       {/* Vertical Line */}
       {index !== len.length - 1 && (
