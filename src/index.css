@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-triangles {
+  background-image: url("../assets/img/triangles-top.c8c742fc.svg"),url("../assets/img/triangles-bottom.7bacc849.svg");
+  background-position: 0 0,100% 100%;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+@media only screen and (max-width: 580px) {
+  .bg-triangles {
+      background-size:contain
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+  background-color: #f3e8e5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f1ded5;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e3c9bc; 
+}
+
+
+* {
+  scrollbar-width: thin; 
+  scrollbar-color: #f1ded5 #f3e8e5;
+}
