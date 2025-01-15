@@ -17,8 +17,8 @@ function Blog() {
 
 const BlogList = ({ setActiveBlog }) => {
   return (
-    <div>
-      <Heading title={"Blog"} />
+    <div >
+      <Heading title={"Blog"}  />
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {blogs.map((item, index) => (

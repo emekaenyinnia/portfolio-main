@@ -53,7 +53,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div >
       <Heading title={"Contact"} />
       <p className="mb-4 text-sm">
         Open for opportunities: <span className="font-semibold">Yes</span>
@@ -102,10 +102,10 @@ function Contact() {
               className="mt-1 block w-full p-4 rounded-2xl bg-link text-sm overflow-hidden"
             ></textarea>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 w-full">
             <button
               type="submit"
-              className="flex items-center justify-center mt-4 bg-main text-white py-2 px-4 rounded-md hover:bg-main/95 transition duration-200  md:float-end"
+              className="flex items-center justify-center mt-4 bg-main text-white py-2 px-4 rounded-md hover:bg-main/95 transition duration-200 w-full md:w-auto  md:float-end"
             >
               <FaPaperPlane className="mr-2" />
               Submit

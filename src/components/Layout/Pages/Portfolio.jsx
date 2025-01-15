@@ -103,7 +103,7 @@ function Portfolio() {
       : achievements.find((category) => category.category === activeTab)?.items || [];
 
   return (
-    <div>
+    <div  >
       <Heading title={"Portfolio"} />
 
       {/* Tab Navigation */}

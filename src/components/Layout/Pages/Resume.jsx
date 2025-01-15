@@ -70,8 +70,8 @@ function Resume() {
         { name: "Stakeholder Communication",nlevel: "Intermediate", percentage: 70 },
       ];
   return (
-    <div> 
-     <Heading title={"Resume"} />
+    <div > 
+     <Heading title={"Resume"}  />
      <div
     id="experience"
       className=""

@@ -48,3 +48,7 @@
   scrollbar-width: thin; 
   scrollbar-color: #f1ded5 #f3e8e5;
 }
+
+html{
+  scroll-behavior: smooth;
+}

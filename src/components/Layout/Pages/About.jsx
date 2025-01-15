@@ -39,8 +39,8 @@ function About() {
     },
   ];
   return (
-    <div>
-      <Heading title={"About Me"} />
+    <div >
+      <Heading title={"About Me"}  />
 
       <article className="text-sm leading-6 flex flex-col gap-4 mb-8">
         <p>
