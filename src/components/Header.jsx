@@ -73,7 +73,7 @@ function Header() {
                 <h6 className=" text-2xl text-primaryLight capitalize">
                   <span className="font-bold ">oluwafunke</span> ijabiken
                 </h6>
-                <p className="text-sm ">DevSecOps | SRE | Cloud Engineering </p>
+                <p className="text-sm ">DevSecOps | SRE | Cloud Engineer </p>
                 <div className="flex flex-row items-center justify-center  gap-4 px-1">
                   {socials?.map((i) => (
                     <a
