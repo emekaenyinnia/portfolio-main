@@ -7,7 +7,7 @@ import {
 } from "react-icons/sl";
 import { FiCompass, FiDownload } from "react-icons/fi";
 import { MdMailOutline } from "react-icons/md";
-import { FaDownload,FaMapMarkerAlt } from "react-icons/fa";
+import { FaDownload,FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 import { HiDevicePhoneMobile } from "react-icons/hi2";
 
 function Header() {
@@ -35,10 +35,11 @@ function Header() {
   ];
 
   const information = [
+
     {
-      name:'phone',
-      icon : <HiDevicePhoneMobile/>,
-      detail:'+123 456 7690 '
+      name:'Email',
+      icon : <MdMailOutline/>,
+      detail:'rijabiken@riteplacement.com'
     },
     {
       name:'Location',
@@ -46,10 +47,11 @@ function Header() {
       detail:'Houston, Tx'
     },
     {
-      name:'Email',
-      icon : <MdMailOutline/>,
-      detail:'rijabiken@riteplacement.com'
+      name:'Birth',
+      icon : <FaCalendarAlt/>,
+      detail:'08 DEC '
     },
+
 
 
   ]
